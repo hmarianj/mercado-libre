@@ -102,6 +102,12 @@ img {
   text-align: center;
   margin-bottom: 20px;
 }
+.cards:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 25px -1px #A5A5A5; 
+  box-shadow: 0px 0px 25px -1px #A5A5A5;
+  transition: 0.2s;
+}
 .descripcion-card {
   padding: 15px;
   border-top: solid var(--color--light--grey) 1px;
@@ -211,7 +217,7 @@ h6 {
     margin-bottom: 40px;
   }
   .fa-truck {
-    left: 200px;
+    left: 221px;
   }
   .footer-container {
     display: flex;
@@ -226,5 +232,8 @@ h6 {
   }
   .cards {
     width: 22%;
+  }
+  .fa-truck {
+    left: 214px;
   }
 }
